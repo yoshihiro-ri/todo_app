@@ -45,3 +45,7 @@ To install and run the application, follow these steps:
 1. Create your account by visiting [http://localhost:3000/SignUp](http://localhost:3000/SignUp).
 2. Log in using your credentials at [http://localhost:3000/Login](http://localhost:3000/Login).
 3. Start using the Todo application.
+
+
+https://github.com/yoshihiro-ri/todo_app/assets/142190978/c3e48a3e-3d0a-4bde-8176-124f5f24e970
+
