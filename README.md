@@ -1,4 +1,4 @@
-# Todo Application with React　and Flask
+# Todo Application with React and Flask
 
 This is a Todo application built with React for the frontend and Flask for the backend. The application includes user authentication features and basic database operations.
 
@@ -7,27 +7,36 @@ This is a Todo application built with React for the frontend and Flask for the b
 To install and run the application, follow these steps:
 
 1. Clone this repository:
-    ```bash
-    git clone https://github.com/yoshihiro-ri/todo_app.git
-    cd todo_app
-    ```
 
+   ```bash
+   git clone https://github.com/yoshihiro-ri/todo_app.git
+   ```
+
+   ```bash
+   cd todo_app
+   ```
 
 2. Clone other repository (backend&frontend):
-    ```bash
-    git clone https://github.com/yoshihiro-ri/todo_app_back.git
-    git clone https://github.com/yoshihiro-ri/todo_app_front.git
-    ```
+
+   ```bash
+   git clone https://github.com/yoshihiro-ri/todo_app_back.git
+   ```
+
+   ```bash
+   git clone https://github.com/yoshihiro-ri/todo_app_front.git
+   ```
 
 3. Build the Docker images:
-    ```bash
-    docker-compose build
-    ```
+
+   ```bash
+   docker-compose build
+   ```
 
 4. Start the application:
-    ```bash
-    docker-compose up
-    ```
+
+   ```bash
+   docker-compose up
+   ```
 
 5. Access the application in your web browser at [http://localhost:3000/SignUp](http://localhost:3000/SignUp).
 

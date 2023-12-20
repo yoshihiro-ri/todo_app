@@ -2,18 +2,19 @@ version: '3'
 services:
   backend:
       build: 
-            context: ./backend
+            context: ./todo_app_back
       ports:
         - "5001:5000"
       volumes:
-        - ./backend:/app
+        - ./todo_app_back:/app
 
   frontend:
     build:
-      context: ./frontend
+      context: ./todo_app_front
     ports:
       - "3000:3000"
     volumes:
-      - ./frontend:/app
+      - ./todo_app_front:/app
+      - /app/node_modules
     depends_on:
       - backend
